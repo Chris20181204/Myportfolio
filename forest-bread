@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>森林手烘焙</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
+     -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    
+   
+</head>
+
+<body>
+
+  <!-- header -->
+  <header> 
+    <div class="logo">
+       <a href=""> <img src="images/logo.png" class="bglogo" alt="森林手烘焙"></a>
+       <a href=""><img src="images/forest.png"  class="smlogo" alt="森林手烘焙"></a>
+    </div> 
+    <nav>
+        <ul>
+            <div class="menu-toggle-2">
+                <i class="fas fa-times"></i>
+            </div>
+            <li><a href="#">最新消息</a></li>
+            <li><a href="#">產品介紹</a></li>
+            <li><a href="#">聯絡我們</a></li>
+            <li><a href="#">購物中心</a></li>
+            <li><a href="#">社群網站</a></li>
+        </ul>
+    </nav>
+    <div class="menu-toggle-1"><i class="fas fa-bars"></i></div>
+    
+  </header>
+  <div class="bg"></div>
+ 
+
+  <!--  header jquery -->
+  <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu-toggle-1').click(function(){
+                    $('nav').toggleClass('active');
+            });
+            $('.menu-toggle-2').click(function(){
+                    $('nav').toggleClass('active');
+            });
+        });
+  </script>
+  <!-- 品質堅持 -->
+  <section>
+      <div class="piclogo">
+          <div class="img anim">
+            <img src="images/picbrand.png" alt="">
+          </div>
+          <p class="anim">
+            不加多餘的糖份、油脂，
+            不給不必要的色素裝飾，追求單純美味，<br>
+            與健康分享，不靠防腐香精來增加香氣與保存期限，
+            使甜膩少一點、<br>但保存短一點，
+            讓你吃的無負擔，追求健康多一點。
+          </p>
+          <div class="anim"><img src="images/cake.jpg" class="img-cake" alt=""></div>
+       </div>
+  </section>
+  <!-- 背景插圖 -->
+  <div class="bg-days anim">
+      <img src="images/102.JPG" class="img-days" alt="">
+  </div>
+
+  <!-- 產品介紹 -->
+  <section id="introduce">
+        <div class="piclogo">
+            <div class="img anim"><img src="images/picintro.png" alt=""></div>
+         </div>
+      <div class="introduce">
+      <div class="card anim">
+          <div class="cardbox">
+            <img src="images/cake1.jpg" class="cake1" alt="">
+            <p>更多資訊</p>
+          </div>
+          <h3>黑林巧克林蛋糕<span>$850</span></h3>
+          <p>苦甜巧克力的蛋糕體配上新鮮的香蕉切片，
+            再搭上一些鮮奶油，意想不到的搭配組合出意想不到的口感
+          </p>
+      </div>
+      <div class="card anim">
+          
+          <div class="cardbox">
+            <img src="images/cake2.jpg" class="cake1" alt="">
+            <p>更多資訊</p>
+          </div>
+          <h3>黑林巧克林蛋糕<span>$850</span></h3>
+          <p>苦甜巧克力的蛋糕體配上新鮮的香蕉切片，
+            再搭上一些鮮奶油，意想不到的搭配組合出意想不到的口感
+          </p>
+      </div>
+      <div class="card anim">
+        <div class="cardbox">
+            <img src="images/cake3.jpg" class="cake1" alt="">
+            <p>更多資訊</p>
+          </div>
+          
+          <h3>黑林巧克林蛋糕<span>$850</span></h3>
+          <p>苦甜巧克力的蛋糕體配上新鮮的香蕉切片，
+            再搭上一些鮮奶油，意想不到的搭配組合出意想不到的口感
+          </p>
+        </div>
+    
+    
+      <!--  -->
+      
+          <div class="card anim">
+            <div class="cardbox">
+            <img src="images/cake4.jpg" class="cake1" alt="">
+            <p>更多資訊</p>
+          </div>
+              
+              <h3>黑林巧克林蛋糕<span>$850</span></h3>
+              <p>苦甜巧克力的蛋糕體配上新鮮的香蕉切片，
+                再搭上一些鮮奶油，意想不到的搭配組合出意想不到的口感
+              </p>
+          </div>
+          <div class="card anim">
+            <div class="cardbox">
+            <img src="images/cake5.jpg" class="cake1" alt="">
+            <p>更多資訊</p>
+          </div>
+              
+              <h3>黑林巧克林蛋糕<span>$850</span></h3>
+              <p>苦甜巧克力的蛋糕體配上新鮮的香蕉切片，
+                再搭上一些鮮奶油，意想不到的搭配組合出意想不到的口感
+              </p>
+          </div>
+          <div class="card anim">
+            <div class="cardbox">
+            <img src="images/cake6.jpg" class="cake1" alt="">
+            <p>更多資訊</p>
+          </div>
+              
+              <h3>黑林巧克林蛋糕<span>$850</span></h3>
+              <p>苦甜巧克力的蛋糕體配上新鮮的香蕉切片，
+                再搭上一些鮮奶油，意想不到的搭配組合出意想不到的口感
+              </p>
+            </div>
+          </div>
+      <button class="btn3 anim">更多產品瀏覽
+    
+      </button>
+  </section>
+ 
+ <!-- 最新消息 -->
+<section id="new">
+    
+  <div class="newimg">
+    <img src="images/picnew.png" class="anim" alt="">
+   </div>
+
+
+<div class="piclogo">
+ <div class="new-img anim">
+   <img src="images/coffeeshop.jpg" class="imgcoffee" alt="">
+ </div>
+ <div class="new-content anim">
+   <h2>【手作烘焙】官方網站正式運作</h2>
+   <p>可以讓您瀏覽森林裡的所有蛋糕唷~<br/>
+       您也可以線上詢問有關森林的任何問題喔!<br/>
+       此官方網站不提供蛋糕訂購的唷~<br/>
+       需要訂購蛋糕的話，<br/>
+       可以經粉絲專頁上私訊小編做訂購唷!<br/>
+       或是直接撥打門市電話做預訂也是可以的呦~<br/>
+       <br/>
+       裕學門市電話:06-1215445<br/>
+       民族門市電話:06-5415557<br/>
+       森林客服專線:06-5454144
+     </p>
+ </div>
+</div>
+</section>
+  <!-- 聯絡我們 -->
+  <section>
+  <div class="piclogo bo">
+      <div class="img anim"><img src="images/piccontact.png" alt=""></div>
+   </div>
+   <div id="contact">
+    <p class="anim"> 
+        謝謝您瀏覽森林手烘焙的網站，<span> 如果您對我們的產品和服務有任何問題和建議。 </span></br>
+         請您填妥下列表單，我們將盡快派專人與您聯繫。
+      </p>
+     
+
+
+  <div class="contact anim">
+    <h2>留下您的聯絡方式</h2>
+    <div class="form">
+      <label for="">姓名 Name</label>
+        <input type="text" placeholder="">
+        <label for="">信箱Mail</label>
+        <input type="text" placeholder="">
+        <label for="">建議事項Suggestion</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit"  class="button" value="送出留言">
+        
+    </div>
+  </div>
+  <p class="anim"> 
+      森林手烘焙祝你有美好的一天
+    </p>
+
+</div>
+  </section>
+  <!--footer  -->
+  <footer>
+    <div class="containbox">
+      <div class="footerlogo">
+        <img src="images/forest.png" alt="">
+      </div>
+      <div class="info">
+          <ul class="info-pic">
+              <li><i class="fas fa-map-marker-alt"></i>台北市大安區安和路一段 27 號 18 樓</li>
+              <li><i class="far fa-envelope"></i>service@forest.com</li>
+              <li><i class="fas fa-phone"></i>(06) 2775 - 3385</li>
+            </ul>
+      </div>
+      <div class="media">
+        <ul class="media-pic">
+          <li><i class="fab fa-facebook"></i></li>
+          <li><i class="fab fa-line"></i></li>
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-instagram"></i></li>
+        </ul>
+      </div>
+  </div>
+  </footer>
+ 
+
+
+  <script type="text/javascript">
+    window.sr = ScrollReveal({
+      origin: "top",
+      duration:1000,
+      easing: "cubic-bezier(0.6, 0.2, 0.1, 1)",
+      reset: true
+    });
+    sr.reveal('.anim');
+  </script>
+</body>
+</html>
